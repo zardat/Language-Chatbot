@@ -12,7 +12,7 @@ from langchain.schema import HumanMessage, AIMessage
 
 # ---------------------- Configuration ----------------------
 # Set your OpenAI API key here.
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
 
 # Initialize Flask
 app = Flask(__name__)
@@ -421,3 +421,4 @@ def api_chat():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
