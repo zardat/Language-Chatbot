@@ -1,5 +1,5 @@
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
 
 import sqlite3
 import bcrypt
@@ -443,3 +443,4 @@ def api_chat(chat_data: ChatModel):
     }
 
 # Run the app with: uvicorn main:app --reload
+
